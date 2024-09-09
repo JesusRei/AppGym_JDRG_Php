@@ -1,0 +1,19 @@
+{
+  "name": "shogu/app-gym_jdrg_php",
+  "description": "APPGYM es una aplicación web desarrollada en PHP que proporciona funcionalidades para la gestión del gimnasio.",
+  "autoload": {
+    "psr-4": {
+      "APPGYM_JDRG_PHP\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "JesusRei",
+      "email": "jesus.reinoso27587@ucaldas.edu.co"
+    }
+  ],
+  "require": {
+    "dompdf/dompdf": "^3.0",
+    "symfony/mailer": "^7.1"
+  }
+}
